@@ -6,6 +6,7 @@
   v3 — 5/07 — блок «Пространство» переделан в интерактивную карусель фото (свайп/перетаскивание, стрелки, точки-индикаторы); точечные доработки мобильной адаптации
   v4 — 5/07 — карусель фото закольцована (кнопки и свайп до конца возвращают к первому фото); раздел «Артисты» удалён, на его месте создан шаблон «Релизы» с плейсхолдер-карточками
   v5 — 5/07 — пути к фото обновлены под структуру с подпапкой img/ (для загрузки на GitHub)
+  v6 — 5/07 — пути к фото возвращены обратно в общую папку (без img/)
 -->
 <html lang="ru">
 <head>
@@ -951,7 +952,7 @@
 <!-- HERO -->
 <header class="hero">
   <div class="hero-media">
-    <img src="img/hero-studio.jpg" alt="Студия 63 PRODUCTION изнутри">
+    <img src="hero-studio.jpg" alt="Студия 63 PRODUCTION изнутри">
   </div>
   <div class="hero-bars" id="heroBars"></div>
 
@@ -1279,11 +1280,11 @@
     </button>
 
     <div class="photo-track" id="photoTrack">
-      <div class="photo-card reveal-clip" style="--i:0"><img src="img/mural-pullup.jpg" alt="Арт-объект и турник в студии"></div>
-      <div class="photo-card reveal-clip" style="--i:1"><img src="img/neon-mic-sign.jpg" alt="Неоновая вывеска в форме микрофона"></div>
-      <div class="photo-card reveal-clip" style="--i:2"><img src="img/session-fisheye.jpg" alt="Рабочая сессия в студии"></div>
-      <div class="photo-card reveal-clip" style="--i:3"><img src="img/neon-vinyl.jpg" alt="Декор с виниловыми пластинками"></div>
-      <div class="photo-card reveal-clip" style="--i:4"><img src="img/room-fisheye.jpg" alt="Общий вид студийной комнаты"></div>
+      <div class="photo-card reveal-clip" style="--i:0"><img src="mural-pullup.jpg" alt="Арт-объект и турник в студии"></div>
+      <div class="photo-card reveal-clip" style="--i:1"><img src="neon-mic-sign.jpg" alt="Неоновая вывеска в форме микрофона"></div>
+      <div class="photo-card reveal-clip" style="--i:2"><img src="session-fisheye.jpg" alt="Рабочая сессия в студии"></div>
+      <div class="photo-card reveal-clip" style="--i:3"><img src="neon-vinyl.jpg" alt="Декор с виниловыми пластинками"></div>
+      <div class="photo-card reveal-clip" style="--i:4"><img src="room-fisheye.jpg" alt="Общий вид студийной комнаты"></div>
     </div>
 
     <button class="car-btn photo-next" id="photoNext" aria-label="Следующее фото">
@@ -1297,7 +1298,7 @@
 <!-- SPLIT: philosophy + photo -->
 <div class="split">
   <div class="split-media reveal-clip">
-    <img src="img/mic-closeup.jpg" alt="Микрофон Neumann в студии 63 PRODUCTION">
+    <img src="mic-closeup.jpg" alt="Микрофон Neumann в студии 63 PRODUCTION">
   </div>
   <div class="split-text reveal-left" style="--i:0">
     <h3 class="apple-reveal">Комплексный взгляд на творчество</h3>
@@ -1358,7 +1359,7 @@
 
 <!-- COMMUNITY -->
 <div class="community">
-  <img src="img/lounge-corner.jpg" alt="Зона отдыха 63 PRODUCTION">
+  <img src="lounge-corner.jpg" alt="Зона отдыха 63 PRODUCTION">
   <div class="community-content reveal-scale">
     <span class="hero-eyebrow mono" style="display:block;margin-bottom:20px;">комьюнити</span>
     <h3>Открытое комьюнити <span class="accent-word">независимых авторов.</span></h3>
@@ -1370,7 +1371,7 @@
 <section id="contacts" style="padding:0;">
   <div class="location">
     <div class="loc-media reveal-clip">
-      <img src="img/brand-monitor.jpg" alt="Рабочее место 63 PRODUCTION">
+      <img src="brand-monitor.jpg" alt="Рабочее место 63 PRODUCTION">
       <div class="loc-pin mono"><span class="dot"></span>ул. Некрасова, 39</div>
     </div>
     <div class="loc-text reveal-left" style="--i:0">
